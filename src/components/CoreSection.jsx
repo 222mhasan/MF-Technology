@@ -3,7 +3,7 @@ import React from "react";
 const CoreSection = () => {
   return (
     <div className="mb-4">
-      <h1 className="text-xl font-semibold text-center mb-2">Monthly Report</h1>
+      <h1 className="text-xl font-semibold text-center mb-2 text-black">Monthly Report</h1>
       <div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 px-2">
           {/* Monthly CRM*/}

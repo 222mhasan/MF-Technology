@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div className="mx-2 min-h-screen bg-[url('/white-bg.jpg')] bg-cover bg-center  opacity-90">
       <div className="text-center mt-2">
-        <h1 className="text-3xl font-bold text-black">MF-Technology</h1>
-        <p className="text-2xl font-semibold text-black">South-West Zone</p>
+        <h1 className="text-3xl font-bold text-black ">MF-Technology</h1>
+        <p className="text-2xl font-semibold text-black ">South-West Zone</p>
       </div>
 
       <Banner />

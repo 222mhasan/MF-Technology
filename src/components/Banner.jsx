@@ -28,7 +28,7 @@ const Banner = () => {
 
   return (
     <div className=" text-center my-3">
-      <h1 className="text-3xl font-semibold mb-4">Our Team</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-black">Our Team</h1>
 
       {/* Zonal Lead */}
       <div className="flex justify-center mb-4 md:mb-8">
@@ -51,11 +51,12 @@ const Banner = () => {
         </div>
       </div>
 
+      {/* className="grid grid-cols-1 md:grid-cols-5 gap-2" */}
       {/* Team members */}
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
+      <div className="flex flex-wrap justify-center gap-4 px-3 ">
         {items.slice(0, visible).map((item) => (
           <div
-            className="id border border-gray-300 shadow-sm p-2 rounded-md"
+            className="id border-2 border-gray-200 shadow-sm p-2 rounded-md"
             key={item.id}
           >
             <img
