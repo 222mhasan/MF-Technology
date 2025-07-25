@@ -16,7 +16,7 @@ const MailFormat = () => {
       {/* Mail format start */}
       <div>
         <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300">Mail Format</h1>
-        <div>
+        <div className="px-1">
             {
                 mails.map(mail=> <div key={mail.id}>
                     <a

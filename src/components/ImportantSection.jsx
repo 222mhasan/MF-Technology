@@ -2,6 +2,7 @@ import React from "react";
 import BracLogo from "../images/brac_logo.png";
 import RightArrow from "../images/rightArrow.gif";
 import RightArrow2 from "../images/RightArrow2.gif";
+import PdfSection from "./PdfSection";
 
 const ImportantSection = () => {
   return (
@@ -9,8 +10,10 @@ const ImportantSection = () => {
       <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300">
         Important Links
       </h1>
-      <div>
-        <button className="btn bg-white text-black border-[#e5e5e5] w-full">
+
+      {/* Important Links */}
+      <div className="flex flex-col gap-1 px-1 mb-5">
+        <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
           <img className="w-[20px]" src={RightArrow2} alt="" />
           <a
             target="_blank"
@@ -20,8 +23,8 @@ const ImportantSection = () => {
             Trendx
           </a>
         </button>
-        {/* ERO */}
-        <button className="btn bg-white text-black border-[#e5e5e5] w-full">
+        {/* ERP */}
+        <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
           <img className="w-[20px]" src={RightArrow2} alt="" />
           <a
             target="_blank"
@@ -33,7 +36,7 @@ const ImportantSection = () => {
         </button>
 
         {/* My Brac */}
-        <button className="btn bg-white text-black border-[#e5e5e5] w-full">
+        <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
           <img className="w-[20px]" src={RightArrow2} alt="" />
           <a
             target="_blank"
@@ -44,6 +47,10 @@ const ImportantSection = () => {
           </a>
         </button>
       </div>
+      {/* Important Links End */}
+
+      {/* PDF Section */}
+      <PdfSection />
     </div>
   );
 };
