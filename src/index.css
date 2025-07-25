@@ -1,3 +1,15 @@
+/* dancing-script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+/* Font-Montserat */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+@theme{
+    --font-dancing-script: 'Dancing Script', 'cursive';
+    --font-montserrat: 'Montserrat', 'sans-serif';
+}

@@ -30,7 +30,7 @@ const Banner = () => {
 
   return (
     <div className=" text-center my-3">
-      <h1 className="text-3xl font-semibold mb-4 text-black">Our Team</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-black font-dancing-script">Our Team</h1>
 
       {/* Zonal Lead */}
       <div className="flex justify-center mb-4 md:mb-8">
@@ -40,7 +40,7 @@ const Banner = () => {
           </figure>
           <div className=" items-center text-center mb-3">
             <h2 className="text-center text-2xl">Parvez Mosaraf</h2>
-            <p>Deputy Manager, South-West</p>
+            <p>Deputy Manager, South-West Zone</p>
             <p className="flex items-center justify-center gap-1 font-semibold">
               <FaPhoneAlt />
               01712345678

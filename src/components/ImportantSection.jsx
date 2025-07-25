@@ -1,12 +1,12 @@
-import React from "react";
-import BracLogo from "../images/brac_logo.png";
-import RightArrow from "../images/rightArrow.gif";
+import Fast_forward from "../images/fast-forward.gif"
 import RightArrow2 from "../images/RightArrow2.gif";
 import PdfSection from "./PdfSection";
+import Building from "../images/building.gif"
+
 
 const ImportantSection = () => {
   return (
-    <div>
+    <div className="">
       <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300">
         Important Links
       </h1>
@@ -25,7 +25,7 @@ const ImportantSection = () => {
         </button>
         {/* ERP */}
         <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
-          <img className="w-[20px]" src={RightArrow2} alt="" />
+          <img className="w-[20px]" src={Fast_forward} alt="" />
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const ImportantSection = () => {
 
         {/* My Brac */}
         <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
-          <img className="w-[20px]" src={RightArrow2} alt="" />
+          <img className="w-[20px]" src={Building} alt="" />
           <a
             target="_blank"
             rel="noopener noreferrer"

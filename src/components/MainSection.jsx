@@ -1,5 +1,5 @@
 import React from "react";
-import CircularSection from "./CircularSection";
+
 import CoreSection from "./CoreSection";
 import ImportantSection from "./ImportantSection";
 import CircularSection2 from "./CircularSection2";
@@ -10,13 +10,13 @@ const MainSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-5  gap-2 ">
         <div className=" ">
           {/* <CircularSection /> */}
-          <CircularSection2/>
+          <CircularSection2 />
         </div>
         <div className="  col-span-3">
-            <CoreSection/>
+          <CoreSection />
         </div>
         <div className="">
-            <ImportantSection/>
+          <ImportantSection />
         </div>
       </div>
     </div>
