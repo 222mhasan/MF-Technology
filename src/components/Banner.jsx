@@ -3,6 +3,8 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import ParvezVai from "../images/parvez-bhai.png"; // Assuming you have an image for the Zonal Lead
+import Arrow from "../images/Arrow.gif";
+import Arrow2 from "../images/arrow2.gif";
 
 const Banner = () => {
   const [items, setItems] = useState([]);
@@ -32,7 +34,7 @@ const Banner = () => {
 
       {/* Zonal Lead */}
       <div className="flex justify-center mb-4 md:mb-8">
-        <div className=" w-96 shadow-sm">
+        <div className=" w-96 shadow-sm text-black">
           <figure className="px-10 w-[300px] mx-auto">
             <img src={ParvezVai} alt="Shoes" className="rounded-full" />
           </figure>
@@ -64,16 +66,19 @@ const Banner = () => {
               src={item.image}
               alt="image"
             />
-            <h1 className="text-lg font-semibold">{item.name}</h1>
-            <p>{item.base}</p>
-            <p className="flex items-center justify-center gap-1 font-semibold">
-              <FaPhoneAlt />
-              {item.phone}
-            </p>
+            <div className="text-black">
+              <h1 className="text-lg font-semibold">{item.name}</h1>
+              <p>{item.base}</p>
+              <p className="flex items-center justify-center gap-1 font-semibold">
+                <FaPhoneAlt />
+                {item.phone}
+              </p>
+            </div>
             <p className="flex items-center justify-center gap-1 font-semibold">
               <AiTwotoneMail />
               {item.email}
             </p>
+           
           </div>
         ))}
       </div>
@@ -81,10 +86,11 @@ const Banner = () => {
       {/* show more button */}
       {visible < items.length && (
         <button
-          className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md mt-3"
+          className=" mt-3 flex justify-center items-center px-2 py-1 font-semibold border-2 border-gray-500 mx-auto rounded-md hover:bg-gray-500 hover:text-white transition-all duration-300"
           onClick={showMore}
         >
-          <MdKeyboardDoubleArrowDown />
+          {/* <MdKeyboardDoubleArrowDown /> */}
+          <img className="w-[30px]" src={Arrow2} alt="arrow" />
           Show full Team
         </button>
       )}
