@@ -3,7 +3,7 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import ParvezVai from "../images/parvez-bhai.png"; // Assuming you have an image for the Zonal Lead
-import Arrow from "../images/Arrow.gif";
+
 import Arrow2 from "../images/arrow2.gif";
 
 const Banner = () => {
@@ -78,7 +78,6 @@ const Banner = () => {
               <AiTwotoneMail />
               {item.email}
             </p>
-           
           </div>
         ))}
       </div>
