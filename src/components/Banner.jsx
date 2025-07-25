@@ -67,7 +67,7 @@ const Banner = () => {
               alt="image"
             />
             <div className="text-black">
-              <h1 className="text-lg font-semibold">{item.name}</h1>
+              <h1 className="text-lg font-semibold ">{item.name}</h1>
               <p>{item.base}</p>
               <p className="flex items-center justify-center gap-1 font-semibold">
                 <FaPhoneAlt />

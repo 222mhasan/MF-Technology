@@ -24,7 +24,7 @@ const CircularSection2 = () => {
     <div>
       {/* Circulars Section start */}
       <div>
-        <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300">
+        <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300 font-montserrat">
           All Circulars
         </h1>
         {/* All circulars */}

@@ -7,12 +7,12 @@ import Building from "../images/building.gif"
 const ImportantSection = () => {
   return (
     <div className="">
-      <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300">
+      <h1 className="text-xl font-semibold text-center mb-1 text-black bg-sky-300 font-montserrat">
         Important Links
       </h1>
 
       {/* Important Links */}
-      <div className="flex flex-col gap-1 px-1 mb-5">
+      <div className="flex flex-col gap-1 px-1 mb-5 ">
         <button className="btn  text-black  hover:bg-gray-200 hover:border-gray-300 text-lg font-semibold border-[#e5e5e5] w-full shadow-xl">
           <img className="w-[20px]" src={RightArrow2} alt="" />
           <a
