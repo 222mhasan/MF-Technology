@@ -85,7 +85,7 @@ const Banner = () => {
       {/* show more button */}
       {visible < items.length && (
         <button
-          className=" mt-3 flex justify-center items-center px-2 py-1 font-semibold border-2 border-gray-500 mx-auto rounded-md hover:bg-gray-500 text-black hover:text-white transition-all duration-300"
+          className=" mt-3 flex justify-center items-center px-2 py-1 font-semibold border-1 border-gray-500 mx-auto rounded-md hover:bg-gray-500 text-black hover:text-white transition-all duration-300"
           onClick={showMore}
         >
           {/* <MdKeyboardDoubleArrowDown /> */}

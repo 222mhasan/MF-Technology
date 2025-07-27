@@ -48,7 +48,7 @@ const CircularSection2 = () => {
         {/* Show more button */}
         {visible < circulars.length && (
           <button
-            className="text-black border-2 border-gray-500  mt-3 flex items-center px-1 mx-auto pr-3 font-semibold rounded-md text-md hover:bg-gray-500 hover:text-white transition-all duration-300"
+            className="text-black border-1 border-gray-500  mt-3 flex items-center px-1 mx-auto pr-3 font-semibold rounded-md text-md hover:bg-gray-500 hover:text-white transition-all duration-300"
             onClick={showMore}
           >
             <img className="w-[30px]" src={Arrow2} alt="" />
